@@ -4,7 +4,7 @@
 <title>Street Advocacy Student Coalition</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
@@ -32,7 +32,7 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
 
 <!-- Links (sit on top) -->
 <div class="w3-top">
-  <div class="w3-row w3-large w3-light-grey">
+  <div class="w3-row w3-large w3-green">
     <div class="w3-col s3">
       <a href="#" class="w3-button w3-block">Home</a>
     </div>
@@ -59,58 +59,71 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
   <!-- Slideshow -->
   <div class="w3-container">
     <div class="w3-display-container mySlides">
-      <img src="./street.jpeg" style="width:100%">
+      <img src="./street_images/1street.jpg" style="width:100%">
       <div class="w3-display-topleft w3-container w3-padding-32">
-        <span class="w3-white w3-padding-large w3-animate-bottom">Downtown Arlington</span>
+        <span class="w3-green w3-padding-large w3-animate-bottom">Downtown Arlington</span>
       </div>
     </div>
     <div class="w3-display-container mySlides">
-      <img src="./clarendon-va.jpg" style="width:100%">
+      <img src="./street_images/2street.jpg" style="width:100%">
       <div class="w3-display-topleft w3-container w3-padding-32">
-        <span class="w3-white w3-padding-large w3-animate-bottom">Clarendon Neighborhood</span>
+        <span class="w3-green w3-padding-large w3-animate-bottom">Clarendon Neighborhood</span>
       </div>
     </div>
     <div class="w3-display-container mySlides">
-      <img src="./bike.png" style="width:100%">
+      <img src="./street_images/3street.jpg" style="width:100%">
       <div class="w3-display-topleft w3-container w3-padding-32">
-        <span class="w3-white w3-padding-large w3-animate-bottom">Arlington</span>
+        <span class="w3-green w3-padding-large w3-animate-bottom">Arlington</span>
+      </div>
+    </div>
+    <div class="w3-display-container mySlides">
+      <img src="./street_images/4street.jpg" style="width:100%">
+      <div class="w3-display-topleft w3-container w3-padding-32">
+        <span class="w3-green w3-padding-large w3-animate-bottom">Arlington</span>
+      </div>
+    </div>
+    <div class="w3-display-container mySlides">
+      <img src="./street_images/5street.jpg" style="width:100%">
+      <div class="w3-display-topleft w3-container w3-padding-32">
+        <span class="w3-green w3-padding-large w3-animate-bottom">Arlington</span>
       </div>
     </div>
 
-    <!-- Slideshow next/previous buttons -->
-    <div class="w3-container w3-dark-grey w3-padding w3-xlarge">
-      <div class="w3-left" onclick="plusDivs(-1)"><i class="fa fa-arrow-circle-left w3-hover-text-teal"></i></div>
-      <div class="w3-right" onclick="plusDivs(1)"><i class="fa fa-arrow-circle-right w3-hover-text-teal"></i></div>
+
+    <!-- Slideshow next/previous buttons and squares -->
+    <div class="w3-container w3-green w3-padding w3-xlarge">
+      <div class="w3-left" onclick="plusDivs(-1)"><i class="fa fa-arrow-circle-left w3-hover-text-white"></i></div>
+      <div class="w3-right" onclick="plusDivs(1)"><i class="fa fa-arrow-circle-right w3-hover-text-white"></i></div>
     
       <div class="w3-center">
-        <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
-        <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
-        <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+        <span class="w3-tag demodots w3-border w3-transparent w3-hover-black" onclick="currentDiv(1)"></span>
+        <span class="w3-tag demodots w3-border w3-transparent w3-hover-black" onclick="currentDiv(2)"></span>
+        <span class="w3-tag demodots w3-border w3-transparent w3-hover-black" onclick="currentDiv(3)"></span>
       </div>
     </div>
   </div>
   
   <!-- Grid -->
-  <div class="w3-row w3-container">
+  <div class="w3-row w3-container" id="plans">
     <div class="w3-center w3-padding-64">
-      <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">What We Offer</span>
+      <span class="w3-xlarge w3-bottombar w3-border-green w3-padding-16">What We Offer</span>
     </div>
-    <div class="w3-col l3 m6 w3-light-grey w3-container w3-padding-16">
+    <div class="w3-col l3 m6 w3-pale-green w3-container w3-padding-16">
       <h3>Design</h3>
       <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
     </div>
 
-    <div class="w3-col l3 m6 w3-grey w3-container w3-padding-16">
+    <div class="w3-col l3 m6 w3-light-green w3-container w3-padding-16">
       <h3>Branding</h3>
       <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
     </div>
 
-    <div class="w3-col l3 m6 w3-dark-grey w3-container w3-padding-16">
+    <div class="w3-col l3 m6 w3-lightish-green w3-container w3-padding-16">
       <h3>Consultation</h3>
       <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
     </div>
 
-    <div class="w3-col l3 m6 w3-black w3-container w3-padding-16">
+    <div class="w3-col l3 m6 w3-green w3-container w3-padding-16">
       <h3>Promises</h3>
       <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
     </div>
@@ -119,16 +132,16 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
   <!-- Grid -->
   <div class="w3-row-padding" id="about">
     <div class="w3-center w3-padding-64">
-      <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">Who We Are</span>
+      <span class="w3-xlarge w3-bottombar w3-border-green w3-padding-16">Who We Are</span>
     </div>
 
     <div class="w3-third w3-margin-bottom">
       <div class="w3-card-4">
-        <img src="/w3images/team1.jpg" alt="John" style="width:100%">
+        <img src="./people_images/cody.jpeg" alt="cody" style="width:100%">
         <div class="w3-container">
-          <h3>Jane Doe</h3>
-          <p class="w3-opacity">CEO & Founder</p>
-          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+          <h3>Cody Finnegan</h3>
+          <p class="w3-opacity">Club Founder</p>
+          <p>As the club founder Cody is very passionate to ensure the safety of the people in the community and always enterprising new ways to make all forms of transportation easier and safer to use.</p>
           <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
         </div>
       </div>
@@ -136,11 +149,11 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
 
     <div class="w3-third w3-margin-bottom">
       <div class="w3-card-4">
-        <img src="/w3images/team2.jpg" alt="Mike" style="width:100%">
+        <img src="./people_images/Ava.jpg" alt="Mike" style="width:100%">
         <div class="w3-container">
-          <h3>Mike Ross</h3>
-          <p class="w3-opacity">Art Director</p>
-          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+          <h3>Ava</h3>
+          <p class="w3-opacity">Co-Founder</p>
+          <p>As the co-founder Ava is very passionate to ensure the safety of the people in the community and always enterprising new ways to make all forms of transportation easier and safer to use.</p>
           <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
         </div>
       </div>
@@ -148,11 +161,11 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
 
     <div class="w3-third w3-margin-bottom">
       <div class="w3-card-4">
-        <img src="/w3images/team3.jpg" alt="Jane" style="width:100%">
+        <img src="./people_images/shangwen.jpg" alt="Jane" style="width:100%">
         <div class="w3-container">
-          <h3>John Doe</h3>
+          <h3>Shangwen</h3>
           <p class="w3-opacity">Designer</p>
-          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+          <p>As designer Shangwen enjoys designing logos and also choosing color schemes relating to our club.</p>
           <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
         </div>
       </div>
@@ -161,7 +174,7 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
 
 <!-- Contact Section -->
 <div class="w3-center w3-padding-64" id="contact">
-  <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">Contact Us</span>
+  <span class="w3-xlarge w3-bottombar w3-border-green w3-padding-16">Contact Us</span>
 </div>
 
 <form action="https://formspree.io/f/xpzvrwwa" method="POST" class="w3-container" id="contactForm" onsubmit="return clearForm();">
@@ -187,7 +200,7 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
 
 <!-- Footer -->
 
-<footer class="w3-container w3-padding-16 w3-light-grey w3-center">
+<footer class="w3-container w3-padding-16 w3-green w3-center">
   <a href="#" class="w3-button w3-black w3-margin"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
   <div class="w3-xlarge w3-section">
     <a href="https://www.instagram.com/accstreetadvocates?igsh=dW8zamY1b3lxdnJo" target="_blank" class="w3-hover-opacity"><i class="fa fa-instagram"></i></a>
