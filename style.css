@@ -106,7 +106,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 
 .display-lmiddle, .display-rmiddle {
     position: absolute;
-    top: 50%; /* Center vertically relative to the parent container */
+    top: 65%; /* Center vertically relative to the parent container */
     transform: translateY(-50%); /* Adjust vertical centering */
 }
 
@@ -218,7 +218,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .text-red,.hover-text-red:hover{color:#f44336!important}
 .text-sand,.hover-text-sand:hover{color:#fdf5e6!important}
 .text-teal,.hover-text-teal:hover{color:#009688!important}
-.text-yellow,.hover-text-yellow:hover{color:#d2be0e!important}
+.text-yellow,.hover-text-yellow:hover{color:#e6d329!important}
 .text-white,.hover-text-white:hover{color:#fff!important}
 .text-black,.hover-text-black:hover{color:#000!important}
 .text-grey,.hover-text-grey:hover,.text-gray,.hover-text-gray:hover{color:#757575!important}
