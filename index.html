@@ -22,12 +22,12 @@
             display: none
         }
 
-        .w3-tag,
+        .tag,
         .fa {
             cursor: pointer
         }
 
-        .w3-tag {
+        .tag {
             height: 15px;
             width: 15px;
             padding: 0;
@@ -55,120 +55,125 @@
 <body>
 
     <!-- Links (sit on top) -->
-    <div class="w3-top">
-        <div class="w3-row w3-large w3-green">
-            <div class="w3-col s3">
-                <a href="#" class="w3-button w3-block">Home</a>
+    <div class="top">
+        <div class="row large green">
+            <div class="col s3">
+                <a href="#" class="button block">Home</a>
             </div>
-            <div class="w3-col s3">
-                <a href="#plans" class="w3-button w3-block">Plans</a>
+            <div class="col s3">
+                <a href="#plans" class="button block">Plans</a>
             </div>
-            <div class="w3-col s3">
-                <a href="#about" class="w3-button w3-block">About</a>
+            <div class="col s3">
+                <a href="#about" class="button block">About</a>
             </div>
-            <div class="w3-col s3">
-                <a href="#contact" class="w3-button w3-block">Contact</a>
+            <div class="col s3">
+                <a href="#contact" class="button block">Contact</a>
             </div>
         </div>
     </div>
 
     <!-- Content -->
-    <div class="w3-content" style="max-width:1100px;margin-top:80px;margin-bottom:80px">
+    <div class="content" style="max-width:1100px;margin-top:80px;margin-bottom:80px">
 
-        <div class="w3-panel">
+        <div class="panel">
             <h1><b>Street Advocacy Student Coalition</b></h1>
             <p>Arlington Career Center</p>
         </div>
 
         <!-- Slideshow -->
-        <div class="w3-container">
-            <div class="w3-display-container mySlides">
-                <img src="./street_images/1street.jpg" style="width:100%">
-                <div class="w3-display-topleft w3-container w3-padding-32">
-                    <span class="w3-green w3-padding-large w3-animate-bottom">Downtown Arlington</span>
+        <div class="container">
+
+
+
+            <div class="display-container mySlides">
+                <img src="./street_images/1-1-1.webp" style="width:100%">
+                <div class="display-topleft container padding-32">
+                    <span class="green padding-large animate-bottom">Pentagon City</span>
                 </div>
             </div>
-            <div class="w3-display-container mySlides">
-                <img src="./street_images/5street.jpg" style="width:100%">
-                <div class="w3-display-topleft w3-container w3-padding-32">
-                    <span class="w3-green w3-padding-large w3-animate-bottom">Clarendon Neighborhood</span>
+            <div class="display-container mySlides">
+                <img src="./street_images/1-1.webp" style="width:100%">
+                <div class="display-topleft container padding-32">
+                    <span class="green padding-large animate-bottom">N Glebe Rd</span>
                 </div>
             </div>
-            <div class="w3-display-container mySlides">
-                <img src="./street_images/4street.jpg" style="width:100%">
-                <div class="w3-display-topleft w3-container w3-padding-32">
-                    <span class="w3-green w3-padding-large w3-animate-bottom">Arlington</span>
+            <div class="display-container mySlides">
+                <img src="./street_images/1-2.webp" style="width:100%">
+                <div class="display-topleft container padding-32">
+                    <span class="green padding-large animate-bottom">Ballston-MU</span>
                 </div>
             </div>
 
-
+            <div class="transparent xxxlarge">
+                <div style="color:#2200ff" class="display-rmiddle" onclick="plusDivs(-1)"><i class="fa fa-arrow-circle-left hover-text-white"></i>
+                </div>
+                <div style="color:#2200ff" class="display-lmiddle" onclick="plusDivs(1)"><i class="fa fa-arrow-circle-right hover-text-white"></i>
+                </div>
+            </div>
 
             <!-- Slideshow next/previous buttons and squares -->
-            <div class="w3-container w3-green w3-padding w3-xlarge">
-                <div class="w3-left" onclick="plusDivs(-1)"><i class="fa fa-arrow-circle-left w3-hover-text-white"></i>
-                </div>
-                <div class="w3-right" onclick="plusDivs(1)"><i class="fa fa-arrow-circle-right w3-hover-text-white"></i>
-                </div>
+            <div class="container green padding xlarge">
 
-                <div class="w3-center">
-                    <span class="w3-tag demodots w3-border w3-transparent w3-hover-white"
+                <div class="center">
+                    <span class="tag demodots border transparent hover-white"
                         onclick="currentDiv(1)"></span>
-                    <span class="w3-tag demodots w3-border w3-transparent w3-hover-white"
+                    <span class="tag demodots border transparent hover-white"
                         onclick="currentDiv(2)"></span>
-                    <span class="w3-tag demodots w3-border w3-transparent w3-hover-white"
+                    <span class="tag demodots border transparent hover-white"
                         onclick="currentDiv(3)"></span>
                 </div>
             </div>
+
         </div>
 
     <!-- Mission Statement -->
     <div>
-        <div class="w3-center w3-padding-64">
-            <span class="w3-xlarge w3-bottombar w3-border-green w3-padding-16">Mission Statement</span>
+        <div class="center padding-64">
+            <span class="xlarge bottombar border-green padding-16">Mission Statement</span>
         </div>
-        <div class="w3-col w3-text-green w3-padding-16 w3-container w3-center w3-xlarge">
+        <div class="col text-green padding-16 container center xlarge">
             <p> <b style="color:rgb(43, 114, 71);">Our mission</b> is to bring students’ voices into the conversation over Arlington’s transportation future, advocating for a future in which streets are never hostile to students using any mode of transportation.</p>
         </div>
     </div>
 
         <!-- Grid -->
-        <div class="w3-row w3-container" id="plans">
-            <div class="w3-center w3-padding-64">
-                <span class="w3-xlarge w3-bottombar w3-border-green w3-padding-16">What We Offer</span>
+        <div class="row container" id="plans">
+            <div class="center padding-64">
+                <span class="xlarge bottombar border-green padding-16">What We Offer</span>
             </div>
-            <div class="w3-col l3 m6 w3-pale-green w3-container w3-padding-16">
+            <div class="col l3 m6 pale-green container padding-16">
                 <h3>Design</h3>
                 <p>Our goal is to design a way for people in the Arlington community to express their views and concerns on the safety of the roads for pedestrians.</p>
             </div>
 
-    <div class="w3-col l3 m6 w3-light-green w3-container w3-padding-16">
+    <div class="col l3 m6 light-green container padding-16">
       <h3>Branding</h3>
       <p>We are a club dedicated to ensuring the safety of the people in our community hoping to spread new ideas to improve the way we transport around our community.</p>
     </div>
 
-    <div class="w3-col l3 m6 w3-lightish-green w3-container w3-padding-16">
+    <div class="col l3 m6 lightish-green container padding-16">
       <h3>Consultation</h3>
       <p>We hope to get in touch with other organizations that can help us have an even bigger impact on our community. Please contact us if you would like to collaborate.</p>
     </div>
 
-    <div class="w3-col l3 m6 w3-green w3-container w3-padding-16">
+    <div class="col l3 m6 green container padding-16">
       <h3>Promises</h3>
       <p>We promise to work as hard as we can to increase street safety as much as we can. We promise to encourage students to participate in helping to improve street safety.</p>
     </div>
   </div>
 
         <!-- Grid -->
-        <div class="w3-row-padding" id="about">
-            <div class="w3-center w3-padding-64">
-                <span class="w3-xlarge w3-bottombar w3-border-green w3-padding-16">Who We Are</span>
+        <div class="row-padding" id="about">
+            <div class="center padding-64">
+                <span class="xlarge bottombar border-green padding-16">Who We Are</span>
             </div>
 
-            <div class="w3-col w3-margin-bottom">
-                <div class="w3-card-4">
+            <div class="col margin-bottom">
+                <div class="card-4">
                     <img src="./people_images/cody.jpeg" alt="cody" style="width:100%">
-                    <div class="w3-container">
+                    <div class="container">
                         <h3>Cody Finnegan</h3>
-                        <p class="w3-opacity">Club Founder and President</p>
+                        <p class="opacity">Club Founder and President</p>
                         <p>As the club founder Cody is very passionate to ensure the safety of the people in the
                             community and always enterprising new ways to make all forms of transportation easier and
                             safer to use.</p>
@@ -179,40 +184,40 @@
         </div>
 
         <!-- Contact Section -->
-        <div class="w3-center w3-padding-64" id="contact">
-            <span class="w3-xlarge w3-bottombar w3-border-green w3-padding-16">Contact Us</span>
+        <div class="center padding-64" id="contact">
+            <span class="xlarge bottombar border-green padding-16">Contact Us</span>
         </div>
 
-        <form action="https://formspree.io/f/xpzvrwwa" method="POST" class="w3-container" id="contactForm"
+        <form action="https://formspree.io/f/xpzvrwwa" method="POST" class="container" id="contactForm"
             onsubmit="return clearForm();">
-            <div class="w3-section">
+            <div class="section">
                 <label>Name</label>
-                <input class="w3-input w3-border" type="text" name="name" required>
+                <input class="input border" type="text" name="name" required>
             </div>
-            <div class="w3-section">
+            <div class="section">
                 <label>Email</label>
-                <input class="w3-input w3-border" type="email" name="_replyto" required>
+                <input class="input border" type="email" name="_replyto" required>
             </div>
-            <div class="w3-section">
+            <div class="section">
                 <label>Subject</label>
-                <input class="w3-input w3-border" type="text" name="_subject" required>
+                <input class="input border" type="text" name="_subject" required>
             </div>
-            <div class="w3-section">
+            <div class="section">
                 <label>Message</label>
-                <textarea class="w3-input w3-border" style="resize:none" name="message" required></textarea>
+                <textarea class="input border" style="resize:none" name="message" required></textarea>
             </div>
-            <button type="submit" class="w3-button w3-black">Send</button>
+            <button type="submit" class="button black">Send</button>
             <div class="space-after-submit"></div>
         </form>
 
         <!-- Footer -->
 
-        <footer class="w3-container w3-padding-16 w3-green w3-center">
-            <a href="#" class="w3-button w3-black w3-margin"><i class="fa fa-arrow-up w3-margin-right"></i>To the
+        <footer class="container padding-16 green center">
+            <a href="#" class="button black margin"><i class="fa fa-arrow-up margin-right"></i>To the
                 top</a>
-            <div class="w3-xlarge w3-section">
+            <div class="xlarge section">
                 <a href="https://www.instagram.com/accstreetadvocates?igsh=dW8zamY1b3lxdnJo" target="_blank"
-                    class="w3-hover-opacity"><i class="fa fa-instagram"></i></a>
+                    class="hover-opacity"><i class="fa fa-instagram"></i></a>
             </div>
         </footer>
 
@@ -240,10 +245,10 @@
                     x[i].style.display = "none";
                 }
                 for (i = 0; i < dots.length; i++) {
-                    dots[i].className = dots[i].className.replace("w3-black", "");
+                    dots[i].className = dots[i].className.replace("black", "");
                 }
                 x[slideIndex - 1].style.display = "block";
-                dots[slideIndex - 1].className += " w3-black";
+                dots[slideIndex - 1].className += " black";
             }
         </script>
 
